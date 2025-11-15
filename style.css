@@ -50,6 +50,7 @@ a.button-item {
   position: relative;
   display: block;
   text-decoration: none;
+  border-radius: 5px;
   font-size: 18px;
   text-align: center;
   font-weight: 600;
@@ -62,7 +63,7 @@ a.button-item:hover {
 }
 
 a.button-item.button-round {
-  border-radius: 10px;
+  border-radius: 25px;
 }
 
 a.button-item .button-icon {
