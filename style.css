@@ -98,11 +98,20 @@ a.button-item .button-icon {
 }
 
 .bg1 .body-area {
-  background-image: url('images/bg1.png');
+  background: #2A7B9B;
+  background: linear-gradient(42deg, rgb(237, 221, 83) 0%, rgba(87, 199, 133, 1) 66%, rgba(42, 123, 155, 1) 100%);
 }
 
 .bg1 a.button-item {
   color: #000;
   background-color: #fff;
+}
 
+.bg2 .body-area {
+  background: #400000;
+}
+
+.bg2 a.button-item {
+  color: #000;
+  background-color: #fff;
 }
