@@ -1,0 +1,106 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.body-area {
+  background-position: center center;
+  background-size: cover;
+  padding: 25px;
+  min-height: 100vh;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+  background-color: hsl(0deg 0% 0% / 30%);
+  background-blend-mode: overlay;
+  margin: 35px 0;
+  border-radius: 15px;
+}
+
+.profile-area {
+  padding: 100px 0 30px 0;
+}
+
+.profile-area img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.profile-area h1.name {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.profile-area h2.designation {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.profile-area p.description {
+  color: #fff;
+  font-size: 16px;
+}
+
+.button-area a.button-item {
+  margin-bottom: 25px;
+  padding: 15px;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.button-area a.button-item:hover {
+  background-color: aliceblue !important;
+}
+
+.button-area a.button-item.button-round {
+  border-radius: 10px;
+}
+
+.button-area a.button-item .button-icon {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 50px;
+  font-size: 25px;
+}
+
+.social-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 40px;
+}
+
+.social-area .social-item {
+  color: #fff;
+  font-size: 35px;
+  margin: 10px;
+}
+
+.bg0 .body-area {
+  background-image: url('images/bg0.png');
+}
+
+.bg0 .button-area a.button-item {
+  color: #000;
+  background-color: #fff;
+}
+
+.bg1 .body-area {
+  background-image: url('images/bg1.png');
+}
+
+.bg1 .button-area a.button-item {
+  color: #000;
+  background-color: #fff;
+}
