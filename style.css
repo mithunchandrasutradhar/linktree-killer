@@ -55,15 +55,15 @@ a.button-item {
   text-align: center;
   font-weight: 600;
   transition: all 0.3s ease;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border-radius: var(--round);
+  border-bottom: 3px solid var(--border-color);
+  background-color: var(--bg-color);
+  transition: all 0.3s ease;
 }
 
 a.button-item:hover {
-  background-color: aliceblue !important;
-}
-
-a.button-item.button-round {
-  border-radius: 25px;
+  background-color: var(--hover) !important;
+  border-bottom: 3px solid var(--border-color-hover);
 }
 
 a.button-item .button-icon {
@@ -72,6 +72,20 @@ a.button-item .button-icon {
   top: 10px;
   width: 50px;
   font-size: 25px;
+}
+
+a.button-item .button-icon i,
+a.button-item .button-text,
+.social-item a i {
+  transition: all 0.3s ease;
+}
+
+a.button-item:hover .button-icon i {
+  color: var(--hover) !important;
+}
+
+a.button-item:hover .button-text {
+  color: var(--hover) !important;
 }
 
 .social-area {
@@ -83,18 +97,17 @@ a.button-item .button-icon {
 }
 
 .social-item {
-  color: #fff;
   font-size: 35px;
   margin: 10px;
 }
 
-.bg0 .body-area {
-  background-image: url('images/bg0.png');
+
+.social-item a i:hover {
+  color: var(--hover) !important;
 }
 
-.bg0 a.button-item {
-  color: #000;
-  background-color: #fff;
+.bg0 .body-area {
+  background-image: url('images/bg0.png');
 }
 
 .bg1 .body-area {
@@ -102,16 +115,7 @@ a.button-item .button-icon {
   background: linear-gradient(42deg, rgb(237, 221, 83) 0%, rgba(87, 199, 133, 1) 66%, rgba(42, 123, 155, 1) 100%);
 }
 
-.bg1 a.button-item {
-  color: #000;
-  background-color: #fff;
-}
 
 .bg2 .body-area {
   background: #400000;
-}
-
-.bg2 a.button-item {
-  color: #000;
-  background-color: #fff;
 }
