@@ -78,7 +78,7 @@ a.button-item .button-icon {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top: 40px;
+  padding: 15px 0 30px 0;
 }
 
 .social-item {
